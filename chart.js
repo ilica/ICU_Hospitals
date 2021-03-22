@@ -83,7 +83,7 @@ function chart(){
             d.hospital_name +"<br>"+"<br>"
             +"Percent of ICU Beds Occupied: "+parseFloat(d.pct_used*100).toFixed(2)+"%"+"<br>"
             +"Average Total Number of ICU Beds: "+parseFloat(d.total_icu_beds_7_day_avg)+"<br>"
-            +"Average Number of ICU Covid Cases: "+icu_cases)
+            +"Average Number of Adult ICU Covid Cases: "+icu_cases)
               .style("left", (projection([d.long,d.lat])[0] + 18) + "px")
               .style("top", (projection([d.long,d.lat])[1] - 18) + "px");
         })
