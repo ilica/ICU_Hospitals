@@ -1,0 +1,5 @@
+.idea/
+.ipynb_checkpoints/
+.pivoted.csv.swp
+pivoted.numbers
+.DS_Store
