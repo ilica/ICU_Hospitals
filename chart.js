@@ -38,7 +38,7 @@ d3.json("nyc.json").then(function(nyb) {
     .attr("d", path);
 });
 
-var isChart = true;
+var isChart = false;
 var parseDate = d3.timeParse("%Y-%m-%d");
 var formatDate = d3.timeFormat("%Y-%m-%d");
 var endDate = "2021-03-05";
